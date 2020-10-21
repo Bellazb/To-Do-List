@@ -1,5 +1,5 @@
 body{
-    background: #352f5b;
+    background: linear-gradient(67deg,darkred,black);
   }
 .container {
     max-width: 400px;
@@ -12,11 +12,23 @@ input[type=text]:focus {
   max-width: 400px;
 }
 .todos li {
-    background: #423a6f;
+    background: linear-gradient(45deg,darkorange,darksalmon);
+}
+.todos li:hover {
+    background: linear-gradient(150deg,darksalmon,darkorange);
 }
 .delete{
     cursor: pointer;
 }
 .filtered {
   display: none !important;
+}
+
+.bg-custom{
+    background: linear-gradient(45deg,orangered,black);
+    color: white;
+    font-family: "Comic Sans MS",SansSerif;
+}
+.bg-custom:hover{
+    background: linear-gradient(45deg,black,orangered);
 }
